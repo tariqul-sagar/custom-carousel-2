@@ -1,0 +1,28 @@
+/*Slider section start*/
+.c_prev, 
+.c_next {
+    top: 85%;
+    width: 5%;
+}
+.c_prev {
+    left: 88%;
+    bottom: 5%;
+}
+.c_next {
+    right: 2%;
+    bottom: 5%;
+}
+
+.c_indicator {
+    right: 77%;
+    bottom: 60%;
+    left: auto;
+    display: block;
+}
+.c_indicator [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+/*Slider section end*/
