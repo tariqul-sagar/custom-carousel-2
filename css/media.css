@@ -1,5 +1,22 @@
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) { ... }
+@media (max-width: 575.98px) {
+	.c_prev {
+	    left: 85%;
+	    bottom: 8%;
+	}
+	.c_next {
+	    right: 1%;
+	    bottom: 8%;
+	}
+	.c_indicator {
+	    right: 75%;
+	    bottom: 2%;
+	}
+	.c_indicator [data-bs-target] {
+	    width: 10px;
+	    height: 10px;
+	}
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
